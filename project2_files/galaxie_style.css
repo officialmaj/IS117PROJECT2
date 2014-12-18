@@ -1,0 +1,775 @@
+<!--
+/* @license
+ * MyFonts Webfont Build ID 2313291, 2012-06-21T11:42:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Clarendon by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/clarendon/clarendon/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2313291
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+-->
+
+ 
+ body{
+ background-color:#FFFFFF;
+ 			color:#0E0E0E;
+
+ }
+ 
+ 
+ h1
+ {
+ padding:0;
+ margin:0;
+ width:auto;
+ height:auto;
+ }
+ 
+ 
+ 
+ /* BASIC FONT DECLARATIONS */
+/* ////////////////////////////////////////////////////////////////// */
+
+.clarendon
+{
+ font-weight:400;
+ letter-spacing:0.09em;
+ font-family: ClarendonBT-Roman, monaco, sans-serif;
+ }
+ 
+ 
+ .frieghtsans
+{
+ font-weight:500;
+ letter-spacing:0.07em;
+ font-family: freight-sans-pro, monaco, sans-serif;
+ }
+ 
+ .theo
+ {
+ margin-left:-0.1em;
+ margin-right:-0.03em;
+ }
+ 
+ .thee
+ {
+ margin-left:-0.05em;
+ }
+ 
+/* ////////////////////////////////////////////////////////////////// */
+ /* END of BASIC FONT DECLARATIONS */
+ 
+ 
+ 
+ 
+ 
+ 
+.centereverything
+{
+ /*this holds everything, and centers it*/
+width:980px;
+height:auto;
+min-height:100px;
+margin:auto;
+}
+
+
+.maincontainer
+{
+ /*this holds everything*/
+ height:500px;
+ width:980px;
+/* background-color:#CCFFCC;*/
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* ////////////////////////////////////////////////////////////////// */
+/* HEADER */
+
+.header
+{
+ /*the header box */
+
+ height:auto;
+ width:940px;
+ padding-top:30px;
+ padding-bottom:29px;
+ /* OVERALL WIDTH of 980*/
+ 
+ margin-left:20px;
+ margin-right:20px;
+
+ border-bottom:3px solid #0E0E0E;
+ /*background-color:#CCFFCC;*/
+
+}
+ 
+ 
+		.rileycranname
+		{
+			font-size:24px;
+			text-transform:uppercase;
+			color:#0E0E0E;
+		}
+			.rileycranname A:link {color: #0E0E0E; text-decoration: none} 
+			.rileycranname A:visited {color: #0E0E0E; text-decoration: none} 
+			.rileycranname A:active {color: #0E0E0E; text-decoration: none} 
+			.rileycranname A:hover {color: #0E0E0E; text-decoration: none; } 
+			
+		
+		
+		.northamerica
+		{
+			margin-left:40px;
+			font-size:16px;
+			text-transform:uppercase;
+			color:#0E0E0E;
+		}
+		
+		
+		.navigation
+		{
+			margin-top:4px;
+			margin-left:40px;
+			font-size:16px;
+			text-transform:uppercase;
+			color:#0E0E0E;
+			float:right;
+		}
+		
+		
+			.navigation a
+			{
+			margin-left:12px;
+			-webkit-transition: border-bottom .2s ease-in-out;
+			border-bottom: 2px solid rgba(0, 0, 0, .0);
+			}
+			.navigation A:link {color: #0E0E0E; text-decoration: none} 
+			.navigation A:visited {color: #0E0E0E; text-decoration: none} 
+			.navigation A:active {color: #0E0E0E; text-decoration: none} 
+			.navigation A:hover {color: #898989; text-decoration: none; border-bottom:2px solid rgba(0, 0, 0, .3);  -webkit-transition: border-bottom .2s ease-in-out;} 
+			
+			#highlighted
+			{
+				font-weight:600;
+				border-bottom: 2px solid rgba(0, 0, 0, .5);
+			}
+			
+		
+ /* END HEADER */
+ /* ////////////////////////////////////////////////////////////////// */
+
+ 
+ 
+ 
+ 
+ 		
+ 		
+ 		
+ 		
+/* ////////////////////////////////////////////////////////////////// */
+/* slider */
+
+	.slider
+	{
+		/*the slider box */
+
+		height:200px;
+		width:940px;
+		margin-top:20px;
+		/* OVERALL WIDTH of 980*/
+ 
+		margin-left:20px;
+		margin-right:20px;
+
+		background-color:#BC4028;
+
+	}
+
+/* end slider */
+/* ////////////////////////////////////////////////////////////////// */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .caplabels
+ {
+ 
+ font-weight:400;
+ letter-spacing:0.09em;
+ font-family: ClarendonBT-Roman, monaco, sans-serif;
+ height:auto;
+ width:940px;
+ padding-top:20px;
+ margin-left:20px;
+ float:left;
+letter-spacing:0.1em; 
+font-size:18px;
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* ////////////////////////////////////////////////////////////////// */
+/* left column */
+
+
+	.leftcolumncap
+	{
+		/*the WORK caption */
+
+		height:auto;
+		min-height:20px;
+		width:620px;
+		margin-right:20px;
+		float:left;
+	}
+
+
+
+	.leftcolumn
+	{
+		/*the leftcolumn box */
+
+		height:auto;
+		min-height:600px;
+		width:620px;
+		margin-top:18px;
+		/* OVERALL WIDTH of 980*/
+ 
+		margin-left:20px;
+		margin-right:20px;
+
+
+		float:left;
+	}
+	
+	
+			#left
+			{
+			/*background-color:#FDB912;*/
+			}
+			
+			#centercell
+			{
+			margin-left:20px;
+			}
+			
+			#right
+			{
+			margin-left:20px;
+			}
+			
+			
+			.cell
+			{
+			height:180px;
+			width:300px;
+			background-color:#EBE8E5;
+			float:left;
+			margin-bottom:20px;
+			}
+			
+				cell.a
+				{
+				height:180px;
+				width:300px;
+				}
+				.cell A:link {color: #0E0E0E; text-decoration: none} 
+				.cell A:visited {color: #0E0E0E; text-decoration: none} 
+				.cell A:active {color: #0E0E0E; text-decoration: none} 
+				.cell A:hover {color: #898989; text-decoration: none; } 
+			
+			
+				.cell:hover .cellonhover
+				{
+				opacity:0.9;
+				-webkit-transition: opacity .2s ease-in-out;
+				}
+			
+			
+			
+				
+				.cellonhover
+				{
+				height:180px;
+				width:300px;
+				color:#FFFFFF;
+				opacity:0.0;
+				-webkit-transition: opacity .2s ease-in-out;
+				}
+				
+			
+					.blackout_spacer
+					{
+					height:120px;
+					width:300px;
+					}
+				
+				
+					.blackout
+					{
+					padding-top:11px;
+					height:49px;
+					padding-left:12px;
+					width:288px;
+					background-color:#0E0E0E;
+					opacity:0.9;
+					}
+				
+					.blackoutheadline
+					{
+					font-weight:400;
+					letter-spacing:0.09em;
+					font-family: ClarendonBT-Roman, monaco, sans-serif;
+					text-transform:uppercase;
+					opacity:1.0;
+
+					}
+					
+					.blackoutSUBheadline
+					{
+					padding-top:1px;
+					font-weight:400;
+					font-size:12px;
+					letter-spacing:0.1em;
+					font-family: freight-sans-pro, monaco, sans-serif;
+					text-transform:uppercase;
+					font-style:italic;
+					opacity:1.0;
+					}
+				
+				
+			
+
+/* end leftcolumn */
+/* ////////////////////////////////////////////////////////////////// */
+ 
+ 
+ 
+ 
+ 
+ 
+	 .singlecolumncap
+	{
+		/*the WORK caption */
+
+		height:auto;
+		min-height:20px;
+		width:auto;
+		margin-right:20px;
+		float:left;
+		
+		
+	}
+
+
+ 	.singlecolumndescription
+	{
+		/*the WORK caption */
+
+		height:auto;
+		min-height:20px;
+		width:auto;
+		float:right;
+		margin-top:3px;
+		color:#6B6B6B;
+ 			font-family: adelle, monaco, sans-serif;
+ 			font-weight:600;
+ 			font-size:12px;
+ 			letter-spacing:0.05em;
+ 			line-height:1.4em; 
+ 
+	}
+
+ 
+ 
+	.workcolumn
+	{
+		/*the workcolumn box */
+
+		height:auto;
+		min-height:600px;
+		width:940px;
+		margin-top:18px;
+		/* OVERALL WIDTH of 980*/
+ 
+		margin-left:20px;
+		margin-right:20px;
+
+
+		float:left;
+	}
+	
+	
+	
+	
+	
+ 
+ 
+ 
+ 
+ 
+ 
+/* ////////////////////////////////////////////////////////////////// */
+/* right column */
+
+	.rightcolumncap
+	{
+		/*the FROM THE BLOG... caption */
+		height:auto;
+		min-height:20px;
+		width:300px
+		float:left;
+	}
+	
+	
+	.rightcolumn
+	{
+		/*the slider box */
+
+		height:auto;
+		min-height:600px;
+		width:300px;
+		margin-top:18px;
+		/* OVERALL WIDTH of 980*/
+ 
+		margin-right:20px;
+
+		float:left;
+	}
+
+			.blogpost
+			{
+			height:220px;
+			width:300px;
+			float:left;
+			margin-bottom:20px;
+			}
+			
+				.blogpost a
+				{
+				height:220px;
+				width:300px;
+				
+				}
+				
+				.blogpost A:link {color: #0E0E0E; text-decoration: none} 
+				.blogpost A:visited {color: #0E0E0E; text-decoration: none} 
+				.blogpost A:active {color: #0E0E0E; text-decoration: none} 
+				.blogpost A:hover {color: #898989; text-decoration: none; } 
+				
+				.blogpost A:hover .blogpostcopy
+				{
+				-webkit-transition: color .2s ease-in-out;
+ 				color:#0E0E0E;
+				}
+			
+			.blogpostimage
+			{
+			height:100px;
+			width:300px;
+			float:left;
+			margin-bottom:18px;
+			}
+			
+			.blogpostcopy
+			{
+			text-align: justify; 
+			text-justify: newspaper	;
+			height:auto;
+			width:300px;
+			float:left;
+			margin-bottom:20px;
+			color:#6B6B6B;
+ 			font-family: adelle, monaco, sans-serif;
+ 			font-weight:400;
+ 			font-size:12px;
+ 			letter-spacing:0.05em;
+ 			line-height:1.4em;
+ 			-webkit-transition: color .2s ease-in-out;
+			}
+			
+			#readmore
+			{
+			padding-top:4px;
+ 			font-weight:600;
+ 			font-size:14px;
+ 			font-style:italic;
+ 			letter-spacing:0.08em;
+ 			float:right;
+ 			color:#0E0E0E;
+ 			opacity:0.8;
+			}
+
+
+
+
+
+/* end rightcolumn */
+/* ////////////////////////////////////////////////////////////////// */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* ////////////////////////////////////////////////////////////////// */
+/* FOOTER */
+
+.footer
+{
+ /*the footer box */
+
+ height:auto;
+ width:940px;
+ padding-top:30px;
+ padding-bottom:29px;
+ /* OVERALL WIDTH of 980*/
+ 
+ margin-left:20px;
+ margin-right:20px;
+ margin-top:20px;
+ 
+ border-top:3px solid #0E0E0E;
+ /*background-color:#CCFFCC;*/
+float:right;
+}
+
+
+			.footercell
+			{
+			height:130px;
+			width:300px;
+			float:left;
+			
+			color:#6B6B6B;
+ 			font-family: adelle, monaco, sans-serif;
+ 			font-weight:600;
+ 			font-size:12px;
+ 			letter-spacing:0.05em;
+ 			line-height:1.4em; 
+ 			-webkit-transition: color .2s ease-in-out;
+ 			}
+			
+				.footercell A:link { color: #0E0E0E; text-decoration: none; -webkit-transition: color .2s ease-in-out;}
+				.footercell A:visited {color: #0E0E0E; text-decoration: none; -webkit-transition: color .2s ease-in-out;}
+				.footercell A:active {color: #0E0E0E; text-decoration: none; -webkit-transition: color .2s ease-in-out;}
+				.footercell A:hover {color: #898989; text-decoration: none; -webkit-transition: color .2s ease-in-out;}
+			
+			
+			#footercenter
+			{
+			margin-left:20px;
+			}
+			
+			#footerright
+			{
+			margin-left:20px;
+			}
+
+
+/* FOOTER */
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* ////////////////////////////////////////////////////////////////// */
+/* BLOG RELATED */
+
+.recentpostslabel
+ {
+ 
+ font-weight:400;
+ letter-spacing:0.09em;
+ font-family: ClarendonBT-Roman, monaco, sans-serif;
+ height:auto;
+ width:940px;
+ padding-top:2px;
+ margin-bottom:18px;
+ float:left;
+letter-spacing:0.1em; 
+font-size:18px;
+
+ }
+ 
+ 
+ 
+ 
+ 		.blogpostthumb
+		{
+		height:auto;
+		width:300px;
+		float:left;
+		margin-bottom:2px;
+		}
+			
+				.blogpost a
+				{
+				height:220px;
+				width:300px;
+				
+				}
+ 
+
+
+/* END BLOG RELATED */
+/* ////////////////////////////////////////////////////////////////// */
+
+
+
+ 
+ 
+ 
+ 
+ 
+ /**
+ * Grid
+ */
+ 
+#grid{
+
+    /* Dimensions - same width as your grid with gutters */
+    width: 980px;
+
+    /* Grid (left-aligned)
+    position: absolute;
+    top: 0;
+    left: 0;
+    */
+
+    /* Grid (centered) */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -490px;
+
+}
+
+/**
+ * Vertical grid lines
+ *
+ * Set the column width taking the borders into consideration,
+ * and use margins to set column gutters.
+ */
+#grid div.vert{
+
+    width: 139px;
+    border: solid darkturquoise;
+    border-width: 0 1px;
+    margin-right: 19px;
+
+}
+
+#grid div.vert.first-line{
+
+    margin-left: 19px;
+
+}
+
+
+/**
+ * Horizontal grid lines, defined by your base line height
+ *
+ * Remember, the CSS properties that define the box model:
+ * visible height = height + borders + margins + padding
+ */
+#grid div.horiz{
+
+    /* 20px line height */
+    height: 19px;
+    border-bottom: 1px dotted darkgray;
+    margin: 0;
+    padding: 0;
+
+}
+
+/**
+* Classes for multiple grids
+*
+* When using more than one grid, remember to set the numberOfGrids 
+* option in the hashgrid.js file.
+*/
+#grid.grid-1 div.vert{
+
+    /* Vertical grid line colour for grid 1 */
+    border-color: darkturquoise;
+
+}
+#grid.grid-2{
+
+    /* Adjustments */
+    padding: 0 160px;
+    width: 660px;
+
+}
+#grid.grid-2 div.vert{
+
+    /* Vertical grid line colour for grid 2 */
+    border-color: crimson;
+
+}
